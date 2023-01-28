@@ -1,0 +1,137 @@
+body
+{
+  background: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+header
+{
+  background: white;
+  border-radius: 5px
+}
+
+.container
+{
+  background: #FFFFFF;
+  margin: 20px;
+  max-width: 1024px;
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  padding-right: 50px;
+}
+.container:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+nav 
+{
+  float: right;
+  background: #0033CC;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+nav li
+{
+  display: inline-block;
+}
+nav .SchoolMenu li
+{
+  display: block;
+  list-style: none;
+  border-radius: 5px;
+
+}
+nav a
+{
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 25px;
+  line-height: 30px;
+}
+.logo
+{
+height: 30px;
+float: left;
+padding: 5px;
+}
+
+.MainMenu > li 
+{
+  position: relative;
+
+}
+.SchoolMenu
+{
+position: absolute;
+right: 0px;
+top: 30px;
+display: none;
+background-color: white;
+padding: 10px;
+border-radius: 5px;
+}
+
+.SchoolMenu > li
+{
+padding: 10px;
+}
+.MainMenu li:hover ul
+{
+display: block;
+}
+
+.SchoolMenu > li:hover
+{
+  background-color: #F5F5F5;
+}
+
+.lll a
+{
+  color: black;
+  text-decoration: none;
+  
+}
+
+.MainContent
+{
+  width: 800px;
+  height: 200px;
+  margin-left: 20px;
+}
+.conten
+{
+  width: 760px;
+  height: 160px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.coment
+{
+  width: 500px;
+  height: 120px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+}
+.smih
+{
+  height: 123px;
+  width: 150px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.coment:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
